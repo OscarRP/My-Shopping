@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_header"
+        android:text="@string/dialog_header"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_dialog"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark_grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/ok_button"
+            android:text="@string/dialog_ok_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/cancel_button"
+            android:text="@string/dialog_cancel_button"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+</LinearLayout>

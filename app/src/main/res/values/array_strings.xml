@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PROFILE IMAGE OPTIONS -->
+    <array name="add_image_options">
+        <item>Cámara</item>
+        <item>Elegir de la galería</item>
+        <item>Eliminar imagen</item>
+        <item>Cancelar</item>
+    </array>
+
+    <!-- PRODUCT QUANTITY TYPE SPINNER -->
+    <array name="quantity_type_options">
+        <item>Uds</item>
+        <item>Kgs</item>
+        <item>Packs</item>
+    </array>
+
+</resources>

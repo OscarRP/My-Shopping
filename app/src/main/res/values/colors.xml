@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#267283</color>
+    <color name="colorPrimaryDark">#003649</color>
+    <color name="colorAccent">#fb6841</color>
+
+    <color name="background">#cccaca</color>
+    <color name="dark_grey">#4d4c4c</color>
+    <color name="white">#ffffff</color>
+    <color name="light_green">#d3e1d3</color>
+
+    <!-- GRADIENT COLORS -->
+    <color name="gradient_color_light">#21DBC1</color>
+    <color name="gradient_color_dark">#1a9daa</color>
+
+    <color name="loading_dialog_background">#eea6aca5</color>
+</resources>

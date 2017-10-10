@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "529119011494",
+    "firebase_url": "https://myshopping-9c53d.firebaseio.com",
+    "project_id": "myshopping-9c53d",
+    "storage_bucket": "myshopping-9c53d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529119011494:android:72eaea40d3950632",
+        "android_client_info": {
+          "package_name": "com.misapps.oscarruiz.myshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529119011494-1v75te83iqjr42hrmb56shod2f3ec77p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEtzDS-CHT0XDi6Gms7yscpx292W4IXk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

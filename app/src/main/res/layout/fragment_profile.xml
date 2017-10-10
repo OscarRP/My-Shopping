@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.misapps.oscarruiz.myshopping.app.fragments.ProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/profile"
+                android:id="@+id/user_image"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/add_button"
+                android:id="@+id/change_profile_image"
+                android:clickable="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name_text_view"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/change_password_button"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/change_password"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel_button"
+                android:text="@string/dialog_cancel_button"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:visibility="gone"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/current_password_edit_text"
+            style="@style/password_edit_text"
+            android:hint="@string/current_password"
+            />
+        <EditText
+            android:hint="@string/new_password"
+            android:id="@+id/password_edit_text"
+            style="@style/password_edit_text"/>
+        <EditText
+            android:id="@+id/repeat_password_edit_text"
+            android:hint="@string/repeat_password"
+            style="@style/password_edit_text"/>
+    </LinearLayout>
+
+</LinearLayout>

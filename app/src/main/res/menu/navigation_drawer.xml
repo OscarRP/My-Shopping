@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/my_shopping_list_title">
+        <menu>
+            <item
+                android:id="@+id/my_lists"
+                android:title="@string/my_shopping_lists"
+                android:icon="@mipmap/my_lists_icon"
+                />
+            <item
+                android:id="@+id/add_list"
+                android:title="@string/add_shopping_list"
+                android:icon="@mipmap/add_list_icon"/>
+            <item
+                android:id="@+id/delete_list"
+                android:title="@string/delete_shopping_lists"
+                android:icon="@mipmap/delete_list_icon"/>
+            <item
+                android:id="@+id/send_list"
+                android:title="@string/send_list"
+                android:icon="@mipmap/send_icon_drawer"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/my_contacts">
+        <menu>
+            <item
+                android:id="@+id/my_contacts"
+                android:title="@string/my_contacts"
+                android:icon="@mipmap/my_contacts_icon"/>
+            <item
+                android:id="@+id/add_contact"
+                android:title="@string/add_contact"
+                android:icon="@mipmap/add_contact_icon"/>
+            <item
+                android:id="@+id/delete_contact"
+                android:title="@string/delete_contact"
+                android:icon="@mipmap/profile_icon"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/settings_tittle">
+        <menu>
+            <item
+                android:id="@+id/my_profile"
+                android:title="@string/my_profile"
+                android:icon="@mipmap/profile_icon"/>
+        </menu>
+    </item>
+
+
+
+</menu>

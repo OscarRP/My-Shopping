@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">My Shopping</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer -->
+    <string name="my_shopping_list_title">Mis Listas</string>
+    <string name="settings_tittle">Ajustes</string>
+    <string name="my_shopping_lists">Mis listas de la compra</string>
+    <string name="add_shopping_list">Añadir lista de la compra</string>
+    <string name="delete_shopping_lists">Eliminar lista de la compra</string>
+    <string name="send_list">Enviar lista</string>
+    <string name="my_profile">Mi Perfil</string>
+    <string name="my_contacts">Mis Contactos</string>
+    <string name="add_contact">Añadir Contacto</string>
+    <string name="delete_contact">Eliminar Contacto</string>
+
+    <!-- Options Menu -->
+    <string name="close_session"> Cerrar Sesión</string>
+
+    <!-- Login Activity -->
+    <string name="email">Email</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Login</string>
+    <string name="no_account_yet">Aún no tienes cuenta?</string>
+    <string name="create_one">Crea una</string>
+    <string name="login_error">Se ha producido un error</string>
+
+    <!-- Register Activity -->
+    <string name="register">Registrarse</string>
+    <string name="already_account">Ya tienes cuenta?</string>
+    <string name="login">Ir a Login</string>
+    <string name="nick">Nick</string>
+    <string name="nick_empty">Debes rellenar el campo Nick</string>
+    <string name="email_empty">Debes rellenar el campo Email</string>
+    <string name="password_empty">Debes rellenar el campo Contraseña</string>
+    <string name="error">Se ha producido un error</string>
+    <string name="user_created">Usuario creado correctamente</string>
+    <string name="register_error">Debes rellenar todos los campos correctamente</string>
+    <string name="user_exsits">Este usuario ya existe</string>
+
+    <!-- Home Fragment -->
+    <string name="empty_ist">Actualmente no tienes ninguna lista de la compra.</string>
+    <string name="home_title">Mis Listas de Compra</string>
+
+    <!-- ADD SHOPPING LIST -->
+    <string name="dialog_header">Empieza poniendo un nombre a tu lista de la compra</string>
+    <string name="dialog_ok_button">Aceptar</string>
+    <string name="dialog_cancel_button">Cancelar</string>
+    <string name="add_products">Añade todos los productos que quieras</string>
+    <string name="product_name">Producto</string>
+    <string name="product_quantity">Cantidad</string>
+    <string name="save">Guardar</string>
+    <string name="default_name">Sin Nombre</string>
+    <string name="add_product_needed">Añade algún artículo antes de guardar la lista de la compra</string>
+    <string name="need_product_name">"Por favor, introduce el nombre del producto"</string>
+    <string name="delete_item">Eliminar producto</string>
+    <string name="add_item">Añadir productos</string>
+    <string name="delete_shopping_list">Eliminar lista</string>
+    <string name="clear_shopping_list">Vaciar lista</string>
+    <string name="list_name">Nombre de la lista</string>
+    <string name="list_saved">La lista se ha guardado correctamente</string>
+    <string name="add_list_tittle">Añadir Nueva Lista</string>
+
+    <!-- DETAIL SHOPPING LIST -->
+    <string name="dialog_title">Eliminar lista de la compra</string>
+    <string name="dialog_message">¿Deseas eliminar esta lista de la compra?</string>
+    <string name="add_product">Añadir</string>
+    <string name="total_price">Importe Total:</string>
+    <string name="done">Hecho</string>
+    <string name="price">Precio</string>
+    <string name="search">Buscar</string>
+    <string name="currency"> €</string>
+    <string name="pick">Marcar/Desmarcar</string>
+
+    <!-- PROFILE -->
+    <string name="current_password">Contraseña actual</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="password_changed">La contraseña se ha cambiado correctamente</string>
+    <string name="close_session_title_dialog">Cerrar Sesión</string>
+    <string name="close_session_message_dialog">¿Seguro que quieres cerrar la sesión?</string>
+    <string name="image_selection_title">Foto de perfil</string>
+    <string name="repeat_password">Repite contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="profile_title">Mi Perfil</string>
+
+    <!-- Select image dialog tittle-->
+    <string name="select_image_dialog_tittle">Selecciona una opción</string>
+
+    <!-- My contacts Fragment -->
+    <string name="no_contacts">No tienes ningún contacto actualmente</string>
+    <string name="list_send">La lista ha sido enviada</string>
+
+    <!-- Add Contact Fragment -->
+    <string name="add_contact_header">Añadir contacto</string>
+    <string name="user_added">Contacto añadido</string>
+    <string name="delete_contact_header">Eliminar contacto</string>
+    <string name="no_user_typed">Introduce el usuario que quieres añadir</string>
+    <string name="user_not_found">Usuario no encontrado</string>
+</resources>

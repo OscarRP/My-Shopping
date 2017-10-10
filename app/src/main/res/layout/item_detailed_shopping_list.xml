@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:id="@+id/name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/name_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_quantity"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="60dp"/>
+        <EditText
+            android:id="@+id/quantity_edit_text"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:textColor="@color/dark_grey"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_spinner"
+            android:layout_gravity="center_vertical"
+            android:entries="@array/quantity_type_options">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="60dp"/>
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/price_edit_text"
+            android:layout_marginLeft="10dp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/dark_grey"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:textColor="@color/dark_grey"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/delete_button"
+        android:background="@mipmap/delete"
+        android:layout_marginLeft="10dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/name_layout"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/pick_button"
+        android:background="@mipmap/pick_icon"
+        android:layout_marginLeft="10dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/delete_button"
+        android:layout_alignStart="@+id/delete_button" />
+
+
+</RelativeLayout>
